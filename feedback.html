@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    
+    
+</head>
+<body >
+    <div class="container" style="width: 400px;
+    margin: 100px auto 0px auto;
+                                     background: linear-gradient(45deg , rgb(135 129 255) ,
+                                      rgb(255 110 110  ));
+                                    position: relative;">
+    <center>
+      
+    <h2>FEEDBACK FOR THE PROJECT</h2><hr>
+  <form action = "feedback.php" method ="POST">
+  <div class="box " style=" background-color: rgba(0,0,0,0.3);
+  width:100%;
+  font-size:18px;
+  border-radius: 10px;
+  border: 1px soid rgba(255,255,255,0.3);
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  color: #fff;">
+
+
+
+<lable>NAME:</lable>
+<br>
+ <input type ="text" name="name" placeholder="Name" required>
+<br><br>
+
+
+<lable>USN:</lable><br>
+<input type ="text" name="usn" value="2022BE" required>
+<br><br>
+
+<lable>EMAIL ID:</lable><br>
+<input type ="text" name="eid" placeholder="Email id" required>
+<br><br>
+
+<lable>USN:</lable><br>
+<td> <input type ="numbers" name="phone" placeholder="Phone number" required>
+  <br><br>
+
+<lable>How do you rate the overall project:</lable><br>
+<div  class="mid" style="text-align: center;"> 
+  <input type="radio" name="rate" value="excellent" required>
+       <label for="excellent">Excellent</label><br>
+       
+       <input type="radio" name="rate" value="good" required>
+       <label for="good">Good</label><br>
+       
+       <input type="radio" name="rate" value="average" required>
+       <label for="average">average</label><br>
+       
+       
+       <input type="radio" name="rate" value="improve" required>
+       <label for="improve">Need to improve</label><br></td>
+
+      </div>
+  <br><br>
+<lable>Any suggetions </lable><br><br>
+<textarea name="sugg" rows="5" cols="50" ></textarea>
+<br><br>
+
+
+<table>
+<tr>
+<td><input type="SUBMIT" name="submit" value="SUBMIT" ></td>
+<td><input type="RESET" name="reset" value="CLEAR" ></td>
+</tr>
+</table></div>
+</center></div>
+</form>
+</body>
+</html>
